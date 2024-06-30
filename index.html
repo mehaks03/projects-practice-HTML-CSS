@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Happiness and Life Satisfaction</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1 id="title">Happiness and Life Satisfaction Survey Form</h1>
+    
+  <p>Thank you for filling out the Survey</p>
+  <br>
+  
+  <form id="survey-form">
+   <section id="person-details">
+    <!-- NAME -->
+    <label for="name" id="name-label" >What is your name?</label>
+    <br>
+   <input id="name" type="text" required placeholder="Enter your name">
+   <br>
+   <br>
+   
+   <!-- EMAIL -->
+   <label for="email" id="email-label" >Enter your E-mail.</label>
+   <br>
+   <input id="email" type="email" placeholder="Enter a valid email id" required>
+   <br>
+   <br>
+
+<!--  AGE -->
+<label for="number" id="number-label" >What is your Age? (in numbers)</label>
+<br>
+<input min="13" max="130" type="number" id="number" >
+</section>
+<br>
+<br>
+
+<!-- DROPDOWN -->
+
+<label>Which option best describes your Happiness level at most times?</label>
+<br>
+
+<select id="dropdown">
+  <option>(select any one)</option>
+  <option>1.Excellent</option>
+  <option>2.Very Good</option>
+  <option>3.Good</option>
+  <option>4.Average</option>
+  <option>5.Bad</option>
+  <option>6.Very Bad</option>
+  </select>
+  <br>
+  <br>
+
+
+<section>
+  <legend>Would you recommend staying positive and happy to others?</legend>
+<input type="radio" name="buttons">
+<label>Definitely</label>
+<br>
+<input type="radio" name="buttons">
+<label>Maybe</label>
+<br>
+
+<input type="radio" name="buttons">
+<label>Not Sure</label>
+<br>
+
+<input type="radio" name="buttons">
+<label>Never</label>
+
+</section>
+<br>
+<br>
+
+
+<!-- NEXT SECTION -->
+<section>
+  <legend>What is the best part about being happy and satisfied ?</legend>
+  
+  <input type="text" id="text-box" required>
+</section>
+<br>
+<br>
+
+<!-- CHECKBOX -->
+<section>
+  <legend>How would you like to see yourself five years from now?</legend>
+  
+
+<input type="checkbox" value="Extremely-happy-and-satisfied">
+<label>Extremely Happy and Satisfied</label>
+<br>
+
+<input type="checkbox" value="Contented">
+<label>Contended with Life</label>
+<br>
+
+<input type="checkbox" value="Happy-but-not-Satisfied">
+<label>Happy but not Satisfied or Eager to learn/live</label>
+<br>
+
+<input type="checkbox" value="satisfed-but-not-so-happy">
+<label>Satisfed but not so Happy</label>
+<br>
+
+
+<input type="checkbox" value="not-sure" >
+<label>Not Sure</label>
+</section>
+<br>
+<br>
+
+<!-- TEXTAREA -->
+<section>
+  <legend>Any advice for people to be Happy...(write your thoughts on happiness)</legend>
+  
+ <textarea id="text-area"> </textarea>
+</section>
+<br>
+<br>
+
+<!-- SUBMIT -->
+<input type="submit" value="Submit">
+</form>
+  </body>
+  <br>
+  <footer></footer>
+  <p> Thank you for supporting to making a Happy World by filling out the Survey. </p>
+</html>
